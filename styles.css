@@ -1,0 +1,179 @@
+* { /* Selecciona todos los elementos */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina rellenos por defecto */
+  box-sizing: border-box; /* Incluye padding y borde dentro del tamaño total */
+}
+
+body { /* Estilos generales del cuerpo */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  background-color: #ffffff; /* Fondo blanco */
+  color: #151827; /* Color principal del texto */
+}
+
+.header { /* Encabezado */
+  background-color: #9b74e8; /* Fondo morado */
+  color: white; /* Texto blanco */
+  padding: 18px 60px; /* Espacio interno arriba/abajo y lados */
+  display: flex; /* Activa Flexbox */
+  justify-content: space-between; /* Logo izquierda y menú derecha */
+  align-items: center; /* Centra verticalmente */
+}
+
+.logo { /* Logo */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 20px; /* Tamaño del texto */
+}
+
+.menu { /* Menú */
+  display: flex; /* Coloca enlaces en fila */
+  gap: 30px; /* Separación entre enlaces */
+}
+
+.menu a { /* Enlaces del menú */
+  color: white; /* Color blanco */
+  text-decoration: none; /* Quita subrayado */
+  font-size: 14px; /* Tamaño pequeño */
+}
+
+.hero { /* Sección principal */
+  padding: 40px 90px; /* Espacio interno */
+  display: flex; /* Texto e imagen en fila */
+  justify-content: space-between; /* Separa texto e imagen */
+  align-items: center; /* Centra verticalmente */
+  gap: 50px; /* Espacio entre texto e imagen */
+}
+
+.hero-texto { /* Texto del hero */
+  flex: 1; /* Ocupa una parte del espacio disponible */
+}
+
+.hero-texto h1 { /* Título principal */
+  font-size: 48px; /* Tamaño grande */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+.hero-texto span { /* Parte morada del título */
+  color: #9b74e8; /* Color morado */
+}
+
+.hero-texto p { /* Párrafo del hero */
+  font-size: 16px; /* Tamaño del texto */
+  color: #555; /* Gris */
+  margin-bottom: 25px; /* Espacio inferior */
+  line-height: 1.5; /* Altura entre líneas */
+}
+
+.botones { /* Contenedor de botones */
+  display: flex; /* Botones en fila */
+  gap: 15px; /* Separación entre botones */
+}
+
+.btn { /* Botón general */
+  background-color: #9b74e8; /* Fondo morado */
+  color: white; /* Texto blanco */
+  padding: 12px 28px; /* Espacio interno */
+  border-radius: 6px; /* Bordes redondeados */
+  text-decoration: none; /* Quita subrayado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.secundario { /* Botón secundario */
+  background-color: white; /* Fondo blanco */
+  color: #9b74e8; /* Texto morado */
+  border: 2px solid #9b74e8; /* Borde morado */
+}
+
+.hero-img { /* Contenedor de imagen */
+  flex: 1; /* Ocupa una parte del espacio */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra la imagen */
+}
+
+.hero-img img { /* Imagen principal */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 500px; /* Ancho máximo */
+  height: 280px; /* Altura fija */
+  object-fit: cover; /* Recorta sin deformar */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.beneficios { /* Sección de beneficios */
+  background-color: #f3edff; /* Fondo lila claro */
+  padding: 30px 70px; /* Espacio interno */
+  display: flex; /* Coloca beneficios en fila */
+  justify-content: space-around; /* Distribuye espacios */
+  align-items: center; /* Centra verticalmente */
+  gap: 30px; /* Separación */
+}
+
+.beneficio { /* Cada beneficio */
+  display: flex; /* Ícono y texto en fila */
+  align-items: center; /* Centra verticalmente */
+  gap: 18px; /* Separación entre ícono y texto */
+  width: 30%; /* Cada beneficio ocupa 30% */
+}
+
+.icono { /* Círculo del ícono */
+  background-color: #e1d2ff; /* Fondo lila */
+  color: #8c5be8; /* Color del ícono */
+  width: 55px; /* Ancho */
+  height: 55px; /* Alto */
+  border-radius: 50%; /* Lo convierte en círculo */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  font-size: 24px; /* Tamaño del ícono */
+}
+
+.productos { /* Sección productos */
+  padding: 35px 70px; /* Espacio interno */
+  text-align: center; /* Centra título */
+}
+
+.linea { /* Línea decorativa */
+  width: 60px; /* Ancho de línea */
+  height: 3px; /* Grosor */
+  background-color: #9b74e8; /* Color morado */
+  margin: 0 auto 30px auto; /* Centra la línea */
+}
+
+.contenedor-productos { /* Contenedor de tarjetas */
+  display: flex; /* Tarjetas en fila */
+  justify-content: center; /* Centra las tarjetas */
+  gap: 35px; /* Separación */
+}
+
+.card { /* Tarjeta */
+  width: 220px; /* Ancho fijo */
+  border: 1px solid #ddd; /* Borde gris */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta lo que sobresale */
+  text-align: left; /* Texto alineado a la izquierda */
+  background-color: white; /* Fondo blanco */
+}
+
+.card img { /* Imagen de tarjeta */
+  width: 100%; /* Ocupa todo el ancho */
+  height: 130px; /* Altura fija */
+  object-fit: cover; /* Recorta sin deformar */
+}
+
+.info { /* Información de tarjeta */
+  padding: 14px; /* Espacio interno */
+}
+
+.footer { /* Pie de página */
+  background-color: #171b22; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 22px 60px; /* Espacio interno */
+  font-size: 13px; /* Tamaño de texto */
+  display: flex; /* Activa Flexbox */
+  justify-content: space-between; /* Texto izquierda, redes centro, texto derecha */
+  align-items: center; /* Centra verticalmente */
+}
+
+.redes { /* Contenedor de redes */
+  display: flex; /* Íconos en fila */
+  gap: 25px; /* Separación */
+  font-size: 20px; /* Tamaño de íconos */
+}

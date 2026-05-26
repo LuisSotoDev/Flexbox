@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!-- Indica que el documento usa HTML5 -->
+<html lang="es"> <!-- Inicia el HTML y define el idioma español -->
+
+<head> <!-- Contiene información interna de la página -->
+  <meta charset="UTF-8"> <!-- Permite usar acentos y caracteres especiales -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+  <title>Café Aurora</title> <!-- Título que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="styles.css"> <!-- Conecta el archivo CSS externo -->
+</head>
+
+<body> <!-- Contenido visible de la página -->
+
+  <header class="header"> <!-- Encabezado principal con Flexbox -->
+    <div class="logo">☕ CAFÉ AURORA</div> <!-- Logo colocado a la izquierda -->
+
+    <nav class="menu"> <!-- Menú de navegación colocado a la derecha -->
+      <a href="#">Inicio</a> <!-- Enlace del menú -->
+      <a href="#">Nosotros</a> <!-- Enlace del menú -->
+      <a href="#">Menú</a> <!-- Enlace del menú -->
+      <a href="#">Galería</a> <!-- Enlace del menú -->
+      <a href="#">Contacto</a> <!-- Enlace del menú -->
+    </nav>
+  </header>
+
+  <section class="hero"> <!-- Sección principal con texto e imagen -->
+    <div class="hero-texto"> <!-- Contenedor del texto del hero -->
+      <h1>El mejor café,<br><span>todos los días</span></h1> <!-- Título principal -->
+      <p>En Café Aurora seleccionamos granos de la más alta calidad para ofrecerte una experiencia única.</p> <!-- Descripción -->
+
+      <div class="botones"> <!-- Contenedor flexible para los botones -->
+        <a href="#" class="btn">Ver menú</a> <!-- Botón principal -->
+        <a href="#" class="btn secundario">Contáctanos</a> <!-- Botón secundario -->
+      </div>
+    </div>
+
+    <div class="hero-img"> <!-- Contenedor de la imagen principal -->
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Café"> <!-- Imagen del café -->
+    </div>
+  </section>
+
+  <section class="beneficios"> <!-- Sección de beneficios -->
+    <div class="beneficio"> <!-- Primer beneficio -->
+      <div class="icono">☕</div> <!-- Ícono circular -->
+      <div> <!-- Contenedor del texto -->
+        <h3>Café de calidad</h3> <!-- Título del beneficio -->
+        <p>Seleccionamos los mejores granos del mundo.</p> <!-- Descripción -->
+      </div>
+    </div>
+
+    <div class="beneficio"> <!-- Segundo beneficio -->
+      <div class="icono">🛋️</div> <!-- Ícono circular -->
+      <div>
+        <h3>Ambiente acogedor</h3>
+        <p>Un lugar perfecto para relajarte o trabajar.</p>
+      </div>
+    </div>
+
+    <div class="beneficio"> <!-- Tercer beneficio -->
+      <div class="icono">💜</div>
+      <div>
+        <h3>Hecho con pasión</h3>
+        <p>Amamos lo que hacemos y se nota en cada taza.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="productos"> <!-- Sección de productos -->
+    <h2>Productos destacados</h2> <!-- Título de la sección -->
+    <div class="linea"></div> <!-- Línea decorativa debajo del título -->
+
+    <div class="contenedor-productos"> <!-- Contenedor flexible de tarjetas -->
+      <div class="card"> <!-- Tarjeta de producto -->
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Capuchino"> <!-- Imagen -->
+        <div class="info"> <!-- Información del producto -->
+          <h3>Capuchino</h3> <!-- Nombre -->
+          <strong>$45</strong> <!-- Precio -->
+          <p>Espresso con leche vaporizada y espuma.</p> <!-- Descripción -->
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="Cold Brew">
+        <div class="info">
+          <h3>Cold Brew</h3>
+          <strong>$50</strong>
+          <p>Café frío y suave, perfecto para cualquier momento.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c" alt="Muffin">
+        <div class="info">
+          <h3>Muffin de chocolate</h3>
+          <strong>$35</strong>
+          <p>Esponjoso muffin con trozos de chocolate.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad" alt="Cheesecake">
+        <div class="info">
+          <h3>Cheesecake</h3>
+          <strong>$55</strong>
+          <p>Suave, cremoso y con el toque perfecto de dulzura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"> <!-- Pie de página -->
+    <p>© 2024 Café Aurora. Todos los derechos reservados.</p> <!-- Texto izquierdo -->
+
+    <div class="redes"> <!-- Redes sociales centradas -->
+      <span>f</span> <!-- Ícono falso de Facebook -->
+      <span>◎</span> <!-- Ícono falso de Instagram -->
+      <span>🐦</span> <!-- Ícono falso de Twitter -->
+    </div>
+
+    <p>Hecho con 💜 para los amantes del café.</p> <!-- Texto derecho -->
+  </footer>
+
+</body>
+</html>
